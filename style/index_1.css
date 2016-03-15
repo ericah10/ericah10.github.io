@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: "Budmo";
-    src: url("../style/Budmo_1.ttf");
+    src: url("./fonts/Budmo_1.ttf");
 }
 header {
   position: center;
