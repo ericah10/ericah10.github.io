@@ -1,0 +1,50 @@
+@import url(//fonts.googleapis.com/css?family=Clicker+Script);
+@import url(//fonts.googleapis.com/css?family=EB+Garamond);
+
+h1 {
+font-family: 'Clicker Script', cursive;
+color: white;
+text-align: center;
+text-shadow:2px 2px 4px;
+}
+
+li {
+font-family: 'EB Garamond', serif;
+color: white;
+text-align: left;
+list-style-type: none;
+
+}
+
+p {
+font-family: 'EB Garamond', serif;
+color: white;
+text-align: center;
+ }
+body {
+  background: no-repeat center center fixed;
+  height: 100%;
+  width: 100%;
+  -webkit-animation: change-bg 25s ease infinite;
+  animation: change-bg 25s ease infinite;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@-webkit-keyframes change-bg{
+  0%  { background-image: url('http://i969.photobucket.com/albums/ae171/asahimoon/tumblr_mxykv4ovuR1qeuzrdo2_r1_500_zpsbea91cd9.jpg'); }
+  25% { background-image: url('http://cdn2.theweek.co.uk/sites/theweek/files/styles/16x8_748/public/helen-mirren-the-audience.jpg?itok=1FWTceqG');}
+  50% { background-image:  url('http://images.bwwstatic.com/upload10/613067/tn-500_nt50yearsonstage_1.jpg');  }
+  75% { background-image: url('https://static-secure.guim.co.uk/sys-images/Media/Pix/pictures/2008/04/03/othello460.jpg');}
+  100% { background-image: url('http://i.telegraph.co.uk/multimedia/archive/01990/Tempest_1990275b.jpg'); }
+}
+
+@keyframes change-bg {
+  0%  { background-image: url('http://i969.photobucket.com/albums/ae171/asahimoon/tumblr_mxykv4ovuR1qeuzrdo2_r1_500_zpsbea91cd9.jpg'); }
+  25% { background-image: url('http://cdn2.theweek.co.uk/sites/theweek/files/styles/16x8_748/public/helen-mirren-the-audience.jpg?itok=1FWTceqG');}
+  50% { background-image:  url('http://images.bwwstatic.com/upload10/613067/tn-500_nt50yearsonstage_1.jpg');  }
+   75% { background-image: url('https://static-secure.guim.co.uk/sys-images/Media/Pix/pictures/2008/04/03/othello460.jpg');}
+  100% { background-image: url('http://i.telegraph.co.uk/multimedia/archive/01990/Tempest_1990275b.jpg'); }
+}

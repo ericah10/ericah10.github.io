@@ -1,0 +1,76 @@
+header {
+	font-size: 35px;
+	text-align: center;
+	padding: 9px;
+    background: url("../images/branches.jpg");
+}
+
+.wrap {
+    width: 100%;
+
+}
+
+.floatleft {
+    float:left; 
+    background-color: #4f9678 ;
+    width: 50%;
+    color: #2B2725;
+    height: 1000px;
+    text-align: center;
+    
+    
+}
+
+.floatright {
+	float: right;
+    background-color: #fdfabf;
+    width: 50%;
+    color: #2B2725;
+    height: 1000px;
+    text-align: center;
+    
+}
+h1 {
+	color: #2B2725;
+	font-family: 'Avant Garde', Avant garde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+h2 {
+	font-family: 'Avant Garde', Avant garde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color:  #2B2725;
+}
+p {
+	font-family: 'Avant Garde', Avant garde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color:  #2B2725;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 20px;
+
+}
+
+.circular_1 {
+	width: 250px;
+	height: 250px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url("../images/run.jpg") no-repeat;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+
+	}
+.circular_2 {
+	width: 250px;
+	height: 250px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url("../images/bardot.jpg") no-repeat;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	}
+a { color: inherit; 
+	font-size: 30px;} 
