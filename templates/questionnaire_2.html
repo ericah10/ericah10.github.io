@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Theatrehack</title>
+    <link href='../static/style/questionnaire_2.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="../static/style/questionaire_2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <div class="topcorner">
+    <ul li>
+      <li><a target="_blank" href="index.html">home</a></li>
+    </ul li>
+  </div>
+    
+    </head>
+
+  <body>
+
+
+
+      <h1> Let's find you a show... </h1>
+
+      </br>
+        <p class= "quote">''The theatre is so endlessly fascinating because it's so accidental. It's so much like life.''</p>
+        <p class="author">Arthur Miller</p>
+      </br>
+
+      
+<div id="contact-form">
+  <form method="post" action="/questionnaire">
+    <label for="name">Name: </label>
+    <input type="text" id="name" class="n" name="name" value="" placeholder="your name" required="required" autofocus="autofocus" />
+    <label for "email">Email: </label>
+    <input type="email" id="email" class="e" name="email" value="" placeholder="example@email.com" required="required" />
+    <label for "age">Age: </label>
+    <input type="text" id="age" class="ag" name="age" value="" placeholder="## years old" required="required" />
+
+</br>
+</br>
+
+<br>
+
+<div id="category1">
+<p> Question 1: Would you rather see a play or a musical?</P>  
+<input type="radio" name="Category1" id="Choose_musical" value="musical" /> Musical
+<input type="radio" name="Category1" id="Choose_play" value="play" /> Play
+</div>
+
+</br>
+
+<div id="category2">
+<p> Question 2: Would you prefer to see a classic show or a contemporary show?</p>
+<input type="radio" name="Category2" id="Choose_classic" value="classic" /> Classic
+<input type="radio" name="Category2" id="Choose_contemporary" value="contemporary" /> Contemporary
+</div>
+
+</br>
+
+<div id="category3">
+<p> Question 3: Are you in the mood for a comedy, a drama or a smash hit? </p>
+<input type="radio" name="Category3" id="Choose_comedy" value="comedy" /> Comedy
+<input type="radio" name="Category3" id="Choose_drama" value="drama" /> Drama
+<input type="radio" name="Category3" id="Choose_smash" value="smash" /> Smash Hit
+</div>
+
+</br>
+
+</div>
+<input type="submit" value="Submit" id="submit-button" />
+
+  </div>
+
+  </html>
+
+
+</body>
+</html>

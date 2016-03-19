@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../static/style/hackyourown.css">
+    
+    
+    <title>DISRUPT THEATRE</title>
+</head>
+<body>
+    <div class="wrap">
+    <div class="floatleft">
+    <div class="circular_1"></div>
+      <h2>Help me find a show.</h2>
+           <br>
+             <p>If you fancy a trip to the theatre but don't know what to see then let us give you a hand. In just three questions we can find your perfect show as well give you ticket details, directions and real-time reviews! Not bad, eh?</p>
+           </br>
+      <div class="hack">
+      <a href="questionnaire_2.html" style="text-decoration:none;"><strong>HACK</strong></a>
+    </div>
+        </div>
+        <div class="floatright">
+    	  <div class="circular_2"></div>
+    	     <h2>I know exactly what I want</h2>
+          <br>
+        <p>So you have a show in mind but you want more information? Our directory gives you the best of London's theatres at a glance. Choose one to find your show as well as all the extra details like directions and what real people think of the show.</p>
+        </br>
+        <div class="dyi">
+        <a href="DIY.html" style="text-decoration:none;"><strong>DIY</strong></a>
+      </div>
+    	</div>
+    <div style="clear: both;">
+
+</div>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<script>
+$( ".floatleft" ).hover(
+  function() {
+    $( ".floatright" ).css( "opacity", "0"  );
+  }, function() {
+    $( ".floatright" ).css( "opacity", "1" );
+  }
+);
+$( ".floatright" ).hover(
+  function() {
+    $( ".floatleft" ).css( "opacity", "0"  );
+  }, function() {
+    $( ".floatleft" ).css( "opacity", "1" );
+  }
+);
+</script>
+</div>
+</body>
+</html>

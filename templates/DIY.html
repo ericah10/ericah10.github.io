@@ -1,0 +1,80 @@
+<!doctype html>
+<head>
+    <header>
+    <title>Theatres</title>
+    <link rel="stylesheet" type="text/css" href="../static/style/DIY.css">
+
+
+    <h1>Find Your Theatre</h1>
+
+    </header>
+</head>
+
+<body>
+
+<div class="wrap">
+    <div class="first_row">
+
+        <ul li>
+           
+            <li><a target="_blank" href="APOLLOVICTORIA.html">APOLLO VICTORIA</a></li>
+         
+           
+            <li><a target="_blank" href="DONMAR.html">DONMAR WAREHOUSE</a></li>
+         
+          
+            <li><a target="_blank" href="DUKE.html">DUKE OF YORK'S</a></li>
+
+            <li><a target="_blank" href="FORTUNE.html">FORTUNE THEATRE</a></li>
+
+        </ul li>
+
+    </div>
+
+        <div class="second_row">
+           <ul li>
+            <li><a target="_blank" href="HAROLD.html">HAROLD PINTER</a></li>
+    
+           
+            <li><a target="_blank" href="LYCEUM.html">LYCEUM THEATRE</a></li>
+         
+            
+            <li><a target="_blank" href="PHOENIX.html">PHOENIX THEATRE</a></li>
+
+            <li><a target="_blank" href="PICCADILLY.html">PICCADILLY THEATRE</a></li>
+         
+        </ul li>
+    </div>
+
+        <div class="third_row">
+            <ul li>
+                <li><a target="_blank" href="PLAYHOUSE.html">PLAYHOUSE THEATRE</a></li>
+
+                <li><a target="_blank" href="SAVOY.html">SAVOY THEATRE</a></li>
+
+                <li><a target="_blank" href="TRAFALGAR1.html">TRAFALGAR STUDIOS 1</a></li>
+
+                <li><a target="_blank" href="TRAFALGAR2.html">TRAFALGAR STUDIOS 2</a></li>
+            </ul li>
+        </div>
+   </div>
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script>
+function changeBackground() {
+    $(".bg").first().fadeIn("slow", function showNext() {
+        var next = $(this).next('div').length ? $(this).next('div') : $(".bg").first();
+        $(this).siblings().fadeOut('slow').delay(1000);
+        next.fadeIn("slow", showNext);
+    });
+}
+
+
+$(document).ready(function () {
+    setTimeout(changeBackground, 200);
+});
+</script>
+</body>
+
+</html>

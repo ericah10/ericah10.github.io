@@ -1,0 +1,241 @@
+
+@font-face {
+    font-family: "quick";
+    src: url("../style/Quicksand.otf");
+  }
+
+
+@font-face {
+    font-family: "Budmo";
+    src: url("../style/Budmo_1.ttf");
+}
+
+@font-face {
+    font-family: "Budmo2";
+    src: url("../style/Budmo_2.ttf");
+}
+
+
+h1 {
+	margin-top: 100px;
+	color: white;
+	text-align: center;
+	font-size: 70px;
+	font-family: 'Budmo';
+ }
+
+h2 {
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'quick';
+  font-style: italic;
+  text-shadow: 3px 3px 4px #000000;
+  font-weight: bolder;
+  }
+
+  h3 {
+    color: #d4d4d4;
+    font-family: 'quick';
+    text-shadow: 3px 3px 4px #000000;
+  }
+body{
+ 	text-align:center;
+ 	background-size: cover;
+}
+body {
+background-image: url("../images/RedCurtain.jpg");
+
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top center !important;
+background-repeat: no-repeat !important;
+background-attachment: fixed;
+letter-spacing: 5px;
+}
+
+
+
+
+p {
+  font-size: 25px;
+	font-family: 'quick';
+	color: white;
+  text-shadow: 3px 3px 4px #000000;
+  margin:30px;
+  text-align: center;
+}
+
+.author {
+  font-style: italic;
+  font-size: 15px;
+}
+
+
+ul li {
+display: inline-block;
+text-align: center;
+margin: 15px;
+}
+
+a {
+     font-family: 'Budmo';
+   text-decoration: none;
+   color: white;
+   border: solid white;
+   padding:5px;
+}
+
+
+ .topcorner{
+   position:absolute;
+   top:0;
+   right:0;
+   font-family: 'quick';
+   text-decoration: none;
+   color: white;
+
+  }
+
+  ul li a:hover
+{
+color: #FFD700; 
+background-color: black;
+font-family: 'Budmo2';
+
+}
+
+h1:hover
+{
+  color: #FFD700; 
+font-family: 'Budmo2';
+
+
+}
+
+ #contact-form {
+  color: #FFFF00;
+  font-family: 'quick';
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-shadow: 5px 5px 7px black;
+
+}
+#name {
+  font-family: 'quick';
+  text-align: center;
+
+  
+
+}
+#email {
+  font-family: 'quick';
+   text-align: center;
+  
+   }
+
+#age {
+  font-family: 'quick';
+   text-align: center;
+   
+}
+.n {border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    box-shadow: 0 0 6px 4px #969696;
+    border: solid 2px #dbdbdb;
+    text-align: center;
+
+  }
+
+.e {border-radius: 10px;
+    
+    height: 30px;
+    width: 200px;
+    box-shadow: 0 0 6px 4px #969696;
+    border: solid 2px #dbdbdb;}
+
+.ag {border-radius: 10px;
+  
+    height: 30px;
+    width: 200px;
+  box-shadow: 0 0 6px 4px #969696;
+    border: solid 2px #dbdbdb;}
+
+input { margin: 30px;}
+
+#submit-button {
+  -moz-box-shadow: 4px 5px 7px 0px black;
+  -webkit-box-shadow: 4px 5px 7px 0px white;
+  box-shadow: 4px 5px 7px 0px black;
+  background-color:transparent;
+  -moz-border-radius:28px;
+  -webkit-border-radius:28px;
+  border-radius:28px;
+  border:2px solid #FFFF00;
+  display:inline-block;
+  cursor:pointer;
+  color: white;
+  font-family: 'quick';
+  font-size:27px;
+  padding:20px 64px;
+  text-decoration:none;
+  text-shadow:0px 0px 0px #040504;
+  letter-spacing: 5px;
+  box-shadow: 0 0 4px 2px #969696;
+}
+#submit-button:hover {
+  background-color: black;
+}
+#submit-button:active {
+  position:relative;
+  top:2px;
+}
+#category1 {
+font-family: 'Budmo';
+color: white;
+font-size: 50px;
+}
+
+#category2 {
+font-family: 'Budmo';
+color: white;
+font-size: 50px;
+}
+
+#category3 {
+font-family: 'Budmo';
+color: white;
+font-size: 50px;
+}
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ffa500;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+
+@media only screen and (max-width: 700px) {
+
+   h1 {
+      font-size: 50px;
+   }
+
+   h2 {
+      font-size: 10px;
+   }
+   header {
+   	  position: relative;
+
+   }
+
+}
