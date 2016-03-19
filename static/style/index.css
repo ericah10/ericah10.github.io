@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: "Budmo";
-    src: url("../style/Budmo_1.ttf");
+    src: url("../style/budmo_1.ttf");
 }
 header {
   position: center;
@@ -54,7 +54,7 @@ letter-spacing: 5px;
 
 p {
   font-size: 25px;
-	font-family: 'EB Garamond', serif;
+	font-family: 'quick';
 	color: white;
   text-shadow: 3px 3px 4px #000000;
   text
